@@ -2,5 +2,7 @@
 import fs from "fs/promises"
 
 let content= JSON.parse(await fs.readFile("./src//data/productos.json", "utf-8"))
-console.log(content)
-//
+
+for (let product of content){
+    console.log(product.nombre,": ",product.precio)
+}

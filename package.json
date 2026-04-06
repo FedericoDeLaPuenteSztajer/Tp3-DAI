@@ -16,9 +16,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "ej01": "node src/programs/ej01.js"
   },
   "dependencies": {
     "fs": "^0.0.1-security"
   }
 }
+
+

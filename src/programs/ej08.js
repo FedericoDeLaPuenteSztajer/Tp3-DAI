@@ -1,15 +1,13 @@
 function AnalizarTexto(texto) {
     //
     let caracteres = texto.length
+    let palabras = (texto.split(" ")).length
 
     //
-    let palabrasSeparadas = texto.split(" ")
-    let palabras = palabrasSeparadas.length
-
-    //
-    let caracteresSeparadas = []
-    palabrasSeparadas.forEach(palabra => {
-        palabra.forEach(letter => {
+    let caracteresSeparadas = [];
+    
+    (texto.split(" ")).forEach(palabra => {
+        (palabra.split("")).forEach(letter => {
             caracteresSeparadas.push(letter)
         })
     })
@@ -17,13 +15,14 @@ function AnalizarTexto(texto) {
     //
     let vocales = 0
     let consonantes = 0
-    const VOCALES = ["a", "e", "i", "o", "u"]
-    caracteres.forEach(c => {
+    const VOCALES = ["a", "e", "i", "o", "u"];
+
+    caracteresSeparadas.forEach(c => {
         if (c >= "a" && c <= "z") {
-            VOCALES.forEach(v=>{
-                if(c==v){
+            VOCALES.forEach(v => {
+                if (c == v) {
                     vocales++
-                }else{
+                } else {
                     consonantes++
                 }
             })

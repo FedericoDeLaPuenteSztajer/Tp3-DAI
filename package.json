@@ -18,7 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ej01": "node src/programs/ej01.js",
     "ej02": "node src/programs/ej02.js",
-    "ej03": "node src/programs/ej03.js"
+    "ej03": "node src/programs/ej03.js",
+    "ej04": "node src/programs/ej04.js"
 
   },
   "dependencies": {

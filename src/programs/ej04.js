@@ -12,7 +12,7 @@ const idPais2 = 233
 
 countries.forEach(country => {
     if ((country.id == idPais1) || (country.id == idPais2)) {
-        console.log("id: ${country.id}")
+        console.log(`id: ${country.id}`)
 
     }
 })

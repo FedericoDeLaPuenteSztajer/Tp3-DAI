@@ -16,14 +16,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ej01": "node src/programs/ej01.js",
-    "ej02": "node src/programs/ej02.js",
-    "ej03": "node src/programs/ej03.js",
-    "ej04": "node src/programs/ej04.js",
-    "ej05": "node src/programs/ej05.js",
-    "ej06": "node src/programs/ej06.js",
-    "ej07": "node src/programs/ej07.js",
-    "ej08": "node src/programs/ej08.js"
+    "1": "node src/programs/ej01.js",
+    "2": "node src/programs/ej02.js",
+    "3": "node src/programs/ej03.js",
+    "4": "node src/programs/ej04.js",
+    "5": "node src/programs/ej05.js",
+    "6": "node src/programs/ej06.js",
+    "7": "node src/programs/ej07.js",
+    "8": "node src/programs/ej08.js",
+    "9": "node src/programs/ej09.js"
 
   },
   "dependencies": {

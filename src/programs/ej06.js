@@ -1,20 +1,20 @@
 import fs from "fs/promises"
-const CONTENT= JSON.parse(await ReadFile("./src/data/productos.json"))
 
 async function ReadFile(file) {
     return await fs.readFile(file, "utf-8")
 }
 
+const CONTENT= JSON.parse(await ReadFile("./src/data/productos.json"))
+
 async function GenerarCSV(){
-    write= "nombre,precio"
+    let write= "nombre,precio"
 
     CONTENT.forEach(product => {
         write+=`\n${product.nombre},${product.precio}`
     })
 
-    if (found==false){
-        console.log(`Producto no encontrado`)
-    }
+    fs.writeFile("./src/data/productos.csv", write)
+    console.log("Contenido transcripto")
 }
 
 GenerarCSV()

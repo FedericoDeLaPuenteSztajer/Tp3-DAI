@@ -20,9 +20,8 @@
     "ej02": "node src/programs/ej02.js",
     "ej03": "node src/programs/ej03.js",
     "ej04": "node src/programs/ej04.js",
-    "ej05": "node src/programs/ej05.js"
-
-
+    "ej05": "node src/programs/ej05.js",
+    "ej06": "node src/programs/ej06.js"
   },
   "dependencies": {
     "dayjs": "^1.11.20",

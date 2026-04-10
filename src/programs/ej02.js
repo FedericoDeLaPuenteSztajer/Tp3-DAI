@@ -18,4 +18,4 @@ async function AgregarProductos(nombre, precio) {
 
 }
 
-AgregarProductos("Laptop", "2000")
+AgregarProductos("a", "0")

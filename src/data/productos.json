@@ -1,18 +1,1 @@
-[
-    {
-        "nombre": "Mouse",
-        "precio": 1500
-    },
-    {
-        "nombre": "Teclado",
-        "precio": 3500
-    },
-    {
-        "nombre": "Pad",
-        "precio": "500"
-    },
-    {
-        "nombre": "Laptop",
-        "precio": "2000"
-    }
-]
+[{"nombre":"Mouse","precio":1500},{"nombre":"Teclado","precio":3500},{"nombre":"Pad","precio":"500"},{"nombre":"Laptop","precio":"2000"},{"nombre":"a","precio":"0"}]

@@ -1,1 +1,1 @@
-# Tp3-DAI
+# La API no funciona en las compus del labo debido al proxy de la institución, en cualquier otra compu funciona perfecto (Comprobado).
